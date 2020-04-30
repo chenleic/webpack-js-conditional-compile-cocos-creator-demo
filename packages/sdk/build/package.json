@@ -1,0 +1,22 @@
+{
+    "name": "sdk",
+    "version": "1.0.9",
+    "description": "sdk",
+    "author": "",
+    "private": true,
+    "scripts": {
+        "build": "cross-env NODE_ENV=development ENV_CONFIG=ios  node build.js",
+        "build-oppo": "cross-env NODE_ENV=development ENV_CONFIG=oppo  node build.js",
+        "build-browser": "cross-env NODE_ENV=development ENV_CONFIG=browser node build.js"
+    },
+    "dependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "cross-env": "^7.0.2",
+        "js-conditional-compile-loader": "^1.0.14"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.8.7",
+        "webpack": "^4.43.0"
+    }
+}
