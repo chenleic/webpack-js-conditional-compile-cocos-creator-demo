@@ -4,8 +4,9 @@
 安装依赖环境
 -----
 
-在vscode的终端下安装下面依赖项  
+在vscode的终端下安装下面依赖项   
 
+在packages/sdk/build目录下安装
 * npm install webpack  
 * npm install cross-env  
 * npm install js-conditional-compile-loader
